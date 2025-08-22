@@ -1,11 +1,11 @@
 ### Teste simples
-GET http://localhost:8081/api/clientes/testeCliente1
+GET http://localhost:8085/api/clientes/testeCliente1
 
 ### Teste com PathVariable
-GET http://localhost:8081/api/clientes/testeCliente2/Danilo
+GET http://localhost:8085/api/clientes/testeCliente2/Danilo
 
 ### Criar Cliente
-POST http://localhost:8081/api/clientes
+POST http://localhost:8085/api/clientes
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 }
 
 ### Listar Cliente
-GET  http://localhost:8081/api/clientes/listarClientes
+GET  http://localhost:8085/api/clientes/listarClientes
 
 ### Remover cliente
 DELETE http://localhost:8081/api/clientes/1
