@@ -1,0 +1,30 @@
+### Teste simples
+GET http://localhost:8081/api/clientes/testeCliente1
+
+### Teste com PathVariable
+GET http://localhost:8081/api/clientes/testeCliente2/Danilo
+
+### Criar Cliente
+POST http://localhost:8081/api/clientes
+Content-Type: application/json
+
+{
+  "id": 4,
+  "nome": "Mario"
+}
+
+### Listar Cliente
+GET  http://localhost:8081/api/clientes/listarClientes
+
+### Remover cliente
+DELETE http://localhost:8081/api/clientes/1
+
+
+### Alterar Cliente
+PUT http://localhost:8081/api/clientes/1
+Content-Type: application/json
+
+{
+  "id": 4,
+  "nome": "Mario"
+}
