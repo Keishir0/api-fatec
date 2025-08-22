@@ -10,4 +10,6 @@ public class ApiFatecApplication {
 		SpringApplication.run(ApiFatecApplication.class, args);
 	}
 
+
+	
 }
