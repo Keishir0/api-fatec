@@ -1,0 +1,26 @@
+### Criar Cliente
+POST http://localhost:8085/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Isadora",
+  "endereco": "Rua A, 1999"
+}
+
+### Listar todos os clientes
+GET http://localhost:8085/api/clientes
+
+### Buscar cliente por ID
+GET http://localhost:8085/api/clientes/1
+
+### Atualizar cliente
+PUT http://localhost:8085/api/clientes/2
+Content-Type: application/json
+
+{
+  "nome": "Julio Atualizado",
+  "endereco": "Rua Z, 222"
+}
+
+### Remover cliente
+DELETE http://localhost:8085/api/clientes/3
